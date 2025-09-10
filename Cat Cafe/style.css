@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #6F4E37;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    box-sizing: border-box;
+}
+.title {
+
+}
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+.bookatable {
+    background-color: white;
+    color: #6F4E37;
+    border-radius: 5px;
+    padding: 10px;
+}
+.hero {
+    background-color: #6F4E37;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.left {
+    border: solid black 2px;
+    height: 400px;
+    width: 400px;
+    color: white;
+    border-radius: 25px;
+}
+.right {
+
+}
+.right img {
+    height: 400px;
+    width: auto;
+    border-radius: 25px;
+}
