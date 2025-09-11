@@ -1,1 +1,1 @@
-Cat Cafe Landing Page
+Cat Cafe
