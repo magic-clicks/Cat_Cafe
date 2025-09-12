@@ -12,12 +12,14 @@
     color: white;
     align-items: center;
     box-sizing: border-box;
+    flex-wrap: wrap;
 }
 .title {
 
 }
 .navigation {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 25px;
     
@@ -31,25 +33,4 @@
     color: #6F4E37;
     border-radius: 5px;
     padding: 10px;
-}
-.hero {
-    background-color: #6F4E37;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px;
-}
-.left {
-    border: solid black 2px;
-    height: 400px;
-    width: 400px;
-    color: white;
-    border-radius: 25px;
-}
-.right {
-
-}
-.right img {
-    height: 400px;
-    width: auto;
-    border-radius: 25px;
 }
