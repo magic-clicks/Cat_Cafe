@@ -126,6 +126,7 @@
     text-align: center;
     padding: 50px;
     color: #3d3d3d;
+    
 }
 .food {
     color: #3d3d3d;
@@ -133,11 +134,19 @@
     flex-direction: row;
     gap: 25px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .food img {
     height: 300px;
     width: 400px;
     border-radius: 25px;
+}
+@media (max-width: 768px) {
+    .food img{
+        flex-direction: column;  
+        padding: 20px;           
+        align-items: center;     
+    }
 }
 .atmosphere-box {
     background-color: #e6d9c7;
