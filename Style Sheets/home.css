@@ -60,9 +60,10 @@
 .main-title {
     text-align: center;
     background-color: #f5f2eb;
-    padding: 10px;
+    padding: 25px;
 }
 .main {
+    padding: 50px;
     display: flex;
     text-align: center;
     background-color: #f5f2eb;
@@ -70,11 +71,13 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 25px;
+    box-sizing: border-box;
+    font-size: 20px;
 
 }
 .main img {
     height: 200px;
-    width: 275px;
+    width: 280px;
     border-radius: 25px;
 }
 .beans {
@@ -84,7 +87,7 @@
     gap: 50px;
     box-sizing: border-box;
     text-align: center;
-    align-items: center;
+     background-color: #e6d9c7;
 }
 .beans img{
     max-width: auto;
