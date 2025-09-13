@@ -28,8 +28,8 @@
 }
 .right img {
     max-width: 100%;
-    max-height: 100;
-    border-radius: 5%;
+    max-height: 100%;
+    border-radius: 25px;
 }
 .meet {
     color: #6F4E37;
@@ -56,4 +56,24 @@
         width: 100%;             
         height: auto;           
     }
+}
+.main-title {
+    text-align: center;
+    background-color: #f5f2eb;
+    padding: 10px;
+}
+.main {
+    display: flex;
+    text-align: center;
+    background-color: #f5f2eb;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 1000px;
+    flex-wrap: wrap;
+
+}
+.main img {
+    height: 250px;
+    width: auto;
+    border-radius: 25px;
 }
