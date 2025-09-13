@@ -6,7 +6,7 @@
 .header {
     display: flex;
     justify-content: space-evenly;
-    background-color: #6F4E37;
+    background-color: #6f4e37;
     padding: 30px;
     font-size: 25px;
     color: white;
@@ -33,7 +33,7 @@
 .bookatable button{
     background-color: #e6d9c7;
     border: #e6d9c7 solid 1px;
-    color: #6F4E37;
+    color: #6f4e37;
     padding: 5px;
     font-size: 25px;
     border-radius: 5px;
