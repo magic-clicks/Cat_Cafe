@@ -68,12 +68,26 @@
     background-color: #f5f2eb;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 1000px;
     flex-wrap: wrap;
+    gap: 25px;
 
 }
 .main img {
-    height: 250px;
-    width: auto;
+    height: 200px;
+    width: 275px;
+    border-radius: 25px;
+}
+.beans {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+}
+.beans img{
+    max-width: auto;
+    max-height: 400px;
     border-radius: 25px;
 }
