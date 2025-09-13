@@ -31,10 +31,11 @@
     color: white;
 }
 .bookatable button{
-    background-color: white;
+    background-color: #e6d9c7;
+    border: #e6d9c7 solid 1px;
     color: #6F4E37;
-    border-radius: 5px;
     padding: 5px;
     font-size: 25px;
+    border-radius: 5px;
 }
 
