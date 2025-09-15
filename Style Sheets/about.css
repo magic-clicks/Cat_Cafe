@@ -54,13 +54,21 @@
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
-    gap: 50px;
     align-items: center;
     justify-content: space-evenly;
     background-color: #3d3d3d;
+    color: white;
+    box-sizing: border-box;
+    gap: 50px;
 }
 .ashandeli img {
     border-radius: 25px;
-    height: 750px;
+    height: 400px;
     width: auto;
+}
+#cuddles {
+    text-align: center;
+    background-color: #3d3d3d;
+    color: white;
+    padding: 10px;
 }
