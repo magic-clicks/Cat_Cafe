@@ -5,6 +5,7 @@
 }
 .menu {
     background-color: #e6d9c7;
+   
 }
 .drink-menu {
     background-color: #f5f2eb;
@@ -16,11 +17,12 @@
     border-radius: 25px;
     text-align: center;
     align-items: center;
-    height: 1000px;
+    height: auto;
+
 
 }
-h1 {
-    font-size: 25px;
+.drink-menu h1 {
+    font-size: 30px;
     text-align: center;
 }
 
