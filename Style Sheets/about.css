@@ -8,6 +8,8 @@
     text-align: center;
     font-size: 25px;
     padding: 25px;
+    
+
 }
 .humans {
     display: flex;
@@ -16,12 +18,16 @@
     justify-content: space-evenly;
     background-color: #e6d9c7;
     text-align: center;
+    text-wrap: wrap;
+    box-sizing: border-box;
+    gap: 50px;
+    
 }
 .magic{
-    
+    flex: 1;
 }
 .baker {
-    
+    flex: 1;
 }
 .humans img {
     
@@ -37,6 +43,8 @@
     justify-content: space-evenly;
     background-color: #e6d9c7;
     text-align: center;
+     box-sizing: border-box;
+    gap: 50px;
 }
 .cats img {
     border-radius: 25px;
@@ -45,10 +53,10 @@
     align-items: center;
 }
 .ash {
-    
+    flex: 1;
 }
 .eli {
-    
+    flex: 1;
 }
 .ashandeli {
     display: flex;
