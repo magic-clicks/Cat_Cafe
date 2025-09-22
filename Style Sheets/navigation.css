@@ -41,5 +41,9 @@
     padding: 5px;
     font-size: 25px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: backround-color 0.25s;
 }
-
+button:hover {
+    background-color: white;
+}
